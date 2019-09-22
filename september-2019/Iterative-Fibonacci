@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+int n,a=0,b=1,c,i;
+scanf("%d",&n);
+if(n==0)
+printf("Invalid");
+else
+{
+if(n==1)
+printf("0");
+else
+{
+printf("0 1 ");
+for(i=0;i<n-2;i++)
+{
+    c=a+b;
+    printf("%d ",c);
+    a=b;
+    b=c;
+}
+}
+}
+}
