@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+int i,n,x,a=1;
+printf("Enter x and n:");
+scanf("%d%d",&x,&n);
+for(i=n;i>0;i--)
+a*=x;
+printf("%d",a);
+}
