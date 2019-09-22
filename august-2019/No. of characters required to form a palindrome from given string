@@ -1,0 +1,10 @@
+str="ABDCCA"
+n=len(str)
+char=0
+for i in range(n-1,0,-1):
+        k=str[:i+1]
+        l=k[::-1]
+        if k==l:
+            break
+        char+=1
+print(char)
